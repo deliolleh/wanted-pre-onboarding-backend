@@ -1,4 +1,6 @@
 package com.wanted.preonboardingbackend.repository;
 
-public interface NoticeRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NoticeRepository extends JpaRepository {
 }
